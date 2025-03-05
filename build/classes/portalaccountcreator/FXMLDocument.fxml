@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="533.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="portalaccountcreator.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="245.0" layoutY="67.0" minHeight="16" minWidth="69" text="Módulo de gestión de cuentas de acceso para pacientes">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="160.0" text="Paso 1: Ingrese el rut del paciente y presione el botón Buscar:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="234.0" text="Paso 2: Seleccione la acción a realizar:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="310.0" text="Paso 3: Confirme la acción, para finalizar:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="buttonAccept" layoutX="327.0" layoutY="436.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Confirmar acción">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="buttonCancel" layoutX="176.0" layoutY="438.0" mnemonicParsing="false" onAction="#handleButtonReset" text="Cancelar" />
+      <RadioButton fx:id="actionCreate" layoutX="34.0" layoutY="269.0" mnemonicParsing="false" selected="true" text="Crear cuenta de paciente">
+         <toggleGroup>
+            <ToggleGroup fx:id="action" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="actionUpdate" layoutX="210.0" layoutY="269.0" mnemonicParsing="false" text="Restablecer contraseña de paciente" toggleGroup="$action" />
+      <TextField fx:id="patientSsn" layoutX="34.0" layoutY="189.0" promptText="00000000-0" />
+      <Label fx:id="lblOptions" layoutX="243.0" layoutY="495.0" text="Powered by Agfa HealthCare" textFill="#a4a4a4" />
+      <Label fx:id="labelPatientName" layoutX="90.0" layoutY="350.0" text="Paciente: " />
+      <Label fx:id="labelPatientRut" layoutX="114.0" layoutY="378.0" text="Rut:" />
+      <Label fx:id="patientName" layoutX="152.0" layoutY="350.0" prefHeight="17.0" prefWidth="334.0" text="Label" />
+      <Label fx:id="patientRut" layoutX="152.0" layoutY="378.0" prefHeight="17.0" prefWidth="141.0" text="Label" />
+      <Button layoutX="201.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleButtonSearch" prefHeight="25.0" prefWidth="185.0" text="Buscar" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="16.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../extras/logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnOptions" layoutX="531.0" layoutY="22.0" mnemonicParsing="false" onAction="#handleLblOptions" text="Opciones" />
+      <RadioButton fx:id="actionOnlyPrint" layoutX="435.0" layoutY="269.0" mnemonicParsing="false" text="Imprimir usuario" toggleGroup="$action" />
+      <PasswordField fx:id="txtPass" layoutX="370.0" layoutY="22.0" />
+    </children>
+</AnchorPane>
