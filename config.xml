@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<parameters>
+    <dbEi id="1">
+        <connString>nZo4udg48dNZYpk3oAHsMVgXEQgcXrsjlXYuMbg3mBRQqD/Xv9WUUuIHlS0h/27n</connString>
+        <user>Ie5MBUjB2n660QkBSuOnig==</user>
+        <password>Fvryn/mgsSovOV3y3zVUBQ==</password>
+    </dbEi>
+    <dbPortal id="1">
+        <connString>HlSubVYIsJ+KKZmSVh/R9rRmG7SclQmks75I+LrRD5EzuTFxrLgu+AVnmMQ8UGBbLzld8t81VAU=</connString>
+        <user>Ie5MBUjB2n660QkBSuOnig==</user>
+        <password>Fvryn/mgsSovOV3y3zVUBQ==</password>
+    </dbPortal>
+    <settings>
+        <rutRequired>s3zbY4KUaG4=</rutRequired>
+        <portalServer>HAfkAedwK9T4WxG1F/e4AQ==</portalServer>
+        <portalPort>+IJB5/s90kA=</portalPort>
+        <portalTls>77cidTzrg1Q=</portalTls>
+        <sendApplication>Ky0E+jY6M5ovOV3y3zVUBQ==</sendApplication>
+        <sendFacility>63QMd/sP11w=</sendFacility>
+        <messageType>lhqDB2pXWz0=</messageType>
+        <messageTypeEvent>/sjs7ONLfhA=</messageTypeEvent>
+        <messageProcessing>uadEuJu/Dtk=</messageProcessing>
+        <messageVersion>svS0q/0rfFo=</messageVersion>
+        <messageCharacterSet>fAL3TFvDwx2l9Lukw2cxUQ==</messageCharacterSet>
+        <eventCode>/sjs7ONLfhA=</eventCode>
+        <userPrefix>Lzld8t81VAU=</userPrefix>
+        <issuerId>tvl2YlxF2zc=</issuerId>
+        <useOnlySsn>s3zbY4KUaG4=</useOnlySsn>
+        <useOnlySsnLength>n1JpqTHD7bE=</useOnlySsnLength>
+        <activeUpdate>77cidTzrg1Q=</activeUpdate>
+        <stageProject>6FWkBrJZr0c=</stageProject>
+	    <passMayusculas>/x+1KaJTgjY=</passMayusculas>
+	    <passMinusculas>vRx0tA+S8es=</passMinusculas>
+	    <passEspeciales>/x+1KaJTgjY=</passEspeciales>
+	    <passDigitos>vRx0tA+S8es=</passDigitos>
+    </settings>
+</parameters>
