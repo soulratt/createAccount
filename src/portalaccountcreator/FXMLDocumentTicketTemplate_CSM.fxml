@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="137.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="portalaccountcreator.FXMLDocumentTicketTemplate">
+   <children>
+      <Pane layoutY="-6.0" prefHeight="639.0" prefWidth="573.0">
+         <children>
+            <Label fx:id="ticketQueue" layoutX="185.0" layoutY="143.0" prefHeight="20.0" prefWidth="204.0" text="Portal Exámenes de Imagenología">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="patientUserName" layoutX="188.0" layoutY="272.0" text="CV00000000-0" />
+            <Label layoutX="62.0" layoutY="187.0" prefHeight="20.0" prefWidth="123.0" text="Estimado(a) Paciente: " textAlignment="JUSTIFY" wrapText="true" />
+            <Label fx:id="patientPassword" layoutX="188.0" layoutY="308.0" text="00000000" />
+            <Label layoutX="62.0" layoutY="272.0" text="Nombre de usuario:" />
+            <Label fx:id="lblPwd" layoutX="62.0" layoutY="308.0" text="Contraseña temporal:" />
+            <Label layoutX="218.0" layoutY="359.0" text="Información importante:">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="397.0" prefHeight="51.0" prefWidth="455.0" text="· Por seguridad, la plataforma le solicitará cambiar la contraseña durante el primer ingreso." textAlignment="JUSTIFY" wrapText="true" />
+            <ImageView fitHeight="57.0" fitWidth="219.0" layoutX="340.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../extras/logo_banm_csm.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="62.0" layoutY="207.0" prefHeight="38.0" prefWidth="455.0" text="Ya puede acceder a sus “Resultados de Imagenología”, a través de nuestro sitio web www.clinicasantamaria.cl ingresando los siguientes datos:" textAlignment="JUSTIFY" wrapText="true" />
+            <Label fx:id="patientName" layoutX="180.0" layoutY="191.0" text="Paciente" />
+            <Label layoutX="59.0" layoutY="448.0" prefHeight="51.0" prefWidth="455.0" text="· El usuario entregado solo le permitirá acceder al resultado de los exámenes que se haya realizado en Clínica Santa María" textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="59.0" layoutY="508.0" prefHeight="51.0" prefWidth="455.0" text="· Los resultados estarán disponibles de acuerdo a los plazos de entrega establecidos para cada examen." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="59.0" layoutY="559.0" prefHeight="51.0" prefWidth="455.0" text="· Para más información puede escribir a radiologia@clinicasantamaria.cl" textAlignment="JUSTIFY" visible="false" wrapText="true" />
+            <Label layoutX="59.0" layoutY="559.0" prefHeight="51.0" prefWidth="455.0" text="· Para más información puede escribir a radiologia@clinicasantamaria.cl" textAlignment="JUSTIFY" wrapText="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
